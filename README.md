@@ -26,7 +26,7 @@ Documentation for the World Time Engine Unreal Plugin
   - [Point in Time Trigger](#point-in-time-trigger)
 
 ## Demo Level
-A pre-built example level included with the plugin that lets you explore and test the time system in action before integrating it into your own project.
+A pre-built example level is included with the plugin, that lets you explore and test the time system in action before integrating it into your own project.
 
 <img width="889" height="265" alt="image" src="https://github.com/user-attachments/assets/feb8b821-e0d3-444e-8f98-22531eb591d3" />
 <img width="851" height="745" alt="image" src="https://github.com/user-attachments/assets/8a506545-ea34-43ea-bb83-40573a07896f" />
