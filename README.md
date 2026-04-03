@@ -2,9 +2,9 @@
 Documentation for the World Time Engine Unreal Plugin
 
 ## Table of Contents
-- [Demo Level](#demolevel)
+- [Demo Level](#demo-level)
 - [Blueprint](#blueprint)
-- [World Time Engine UWorldSubsystem](#worldtimeengineuworldSubsystem)
+- [World Time Engine UWorldSubsystem](#world-time-engine-uworldsubsystem)
 
 ## Demo Level
 A pre-built example level included with the plugin that lets you explore and test the time system in action before integrating it into your own project.
