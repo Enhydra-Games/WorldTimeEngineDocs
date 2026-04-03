@@ -1,10 +1,14 @@
 # Documentation
 Documentation for the World Time Engine Unreal Plugin
 
-[[TOC]]
+## Table of Contents
+- [Demo Level](#demolevel)
+- [Blueprint](#blueprint)
+- [World Time Engine UWorldSubsystem](#worldtimeengineuworldSubsystem)
 
 ## Demo Level
 A pre-built example level included with the plugin that lets you explore and test the time system in action before integrating it into your own project.
+
 <img width="889" height="265" alt="image" src="https://github.com/user-attachments/assets/feb8b821-e0d3-444e-8f98-22531eb591d3" />
 <img width="851" height="745" alt="image" src="https://github.com/user-attachments/assets/8a506545-ea34-43ea-bb83-40573a07896f" />
 <img width="774" height="750" alt="image" src="https://github.com/user-attachments/assets/66578f93-67ad-4bb1-988f-752f795932c5" />
@@ -16,10 +20,12 @@ A pre-built example level included with the plugin that lets you explore and tes
 ## Blueprint
 ### World Time Engine UWorldSubsystem
 The core of the plugin — a Unreal World Subsystem accessible from Blueprints that manages the global in-game time. It serves as the central hub all other time-related nodes connect to.
+
 <img width="308" height="111" alt="image" src="https://github.com/user-attachments/assets/d9386e17-0ec4-4d27-8d9e-008efa2b343e" />
 
 ### Time Info
 A collection of read-only Blueprint nodes for querying the current state of time — including the time of day, time expressed in total seconds, whether time is paused, and the current flow speed.
+
 #### Current Time of the Day
 <img width="570" height="192" alt="image" src="https://github.com/user-attachments/assets/929017c2-430b-45d5-bd67-1ccc9d5da981" />
 <img width="589" height="159" alt="image" src="https://github.com/user-attachments/assets/52a77914-16e6-4cd1-b258-4f5601965025" />
@@ -38,13 +44,15 @@ A collection of read-only Blueprint nodes for querying the current state of time
 
 ### Time settings
 Nodes for configuring how time behaves in your world, such as setting the ammount of seconds/minutes/hours your world has and adjusting how fast time flows relative to real time.
+
 <img width="628" height="212" alt="image" src="https://github.com/user-attachments/assets/ccab1dbc-b587-41ef-8177-f44394aaf4a2" />
 <img width="749" height="375" alt="image" src="https://github.com/user-attachments/assets/d21786b7-2c53-4776-93f3-30d0d4ec8c6f" />
 #### Flow Speed
 <img width="615" height="278" alt="image" src="https://github.com/user-attachments/assets/2c040079-5514-41b5-8ebb-003ca08f29cb" />
 
 ### Time manipulation
-These nodes let you actively change time at runtime — pause it, jump to a specific moment, add or subtract time, or alter how fast it passes. 
+These nodes let you actively change time at runtime — pause it, jump to a specific moment, add or subtract time, or alter how fast it passes.
+
 #### Pause Time
 <img width="661" height="155" alt="image" src="https://github.com/user-attachments/assets/c4520f6b-dee0-4e2a-8bab-f6bd45a2700c" />
 <img width="613" height="150" alt="image" src="https://github.com/user-attachments/assets/c812a036-6e8e-46dc-8aae-8ca34e475799" />
@@ -62,8 +70,8 @@ These nodes let you actively change time at runtime — pause it, jump to a spec
 
 ### Time Events
 Blueprint events that fire automatically when time changes — either when the time value is modified (set/add/subtract) or when the flow speed is altered.
+
 #### Time modification Event
-(set, add subtract)
 <img width="690" height="275" alt="image" src="https://github.com/user-attachments/assets/311d07ca-aafe-4c6f-b2da-1e82a8a444da" />
 
 #### Time Flow Speed changed Event
@@ -71,11 +79,13 @@ Blueprint events that fire automatically when time changes — either when the t
 
 ### Timer Trigger
 A component that fires an event after a specified in-game duration has elapsed, using the plugin's time system rather than real-world time — so it respects pausing and speed changes.
+
 <img width="693" height="371" alt="image" src="https://github.com/user-attachments/assets/662925f7-e68c-440a-8ed3-16f04e3caedd" />
 <img width="595" height="199" alt="image" src="https://github.com/user-attachments/assets/d113dc35-bd06-4c9f-978b-0742994eef85" />
 
 ### Point in Time Trigger
 A component that fires an event when the in-game clock reaches a specific moment in time, allowing you to schedule world events with precision.
+
 <img width="697" height="432" alt="image" src="https://github.com/user-attachments/assets/2ab1dee5-7048-4b11-8056-374290d5615f" />
 <img width="603" height="194" alt="image" src="https://github.com/user-attachments/assets/24750d1d-8c41-45b5-bb91-2f076119c53f" />
 
